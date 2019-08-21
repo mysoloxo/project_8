@@ -4,6 +4,8 @@ body {
   background-image:
   linear-gradient(to bottom, rgba(238, 255, 0, 0.5), rgba(0,0,255,0.5)),
   url('https://i.imgur.com/VzjolAb.jpg');
+  max-width: 1300px;
+  margin: auto;
 }
 
 a {
@@ -26,6 +28,7 @@ a.button, input[type=submit] {
   font-size: 14px;
   border-radius: 2px;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 form a.button, input[type=submit] {
