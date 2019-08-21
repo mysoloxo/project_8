@@ -1,0 +1,112 @@
+body {
+  padding: 10px 50px 50px;
+  font: 18px "Garamond", serif;
+  background-image:
+  linear-gradient(to bottom, rgba(238, 255, 0, 0.5), rgba(0,0,255,0.5)),
+  url('https://i.imgur.com/VzjolAb.jpg');
+}
+
+a {
+  color:rgb(227, 236, 238);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.4s;
+  font-family:cursive ;
+}
+
+  a:hover {
+    color:  rgb(160, 9, 160);
+  }
+
+a.button, input[type=submit] {
+  color: white;
+  background: rgb(223, 152, 39);
+  font-family: "Lucida Grande";
+  padding: 10px 14px 12px;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+form a.button, input[type=submit] {
+  margin-left: 140px;
+  transition: 0.4s;
+}
+
+input[type=submit] {
+  border: 0;
+}
+
+  a.button:hover, input[type=submit]:hover {
+    background-color: rgb(241, 204, 143);
+  }
+
+p {
+  margin: 20px auto;
+  color:  rgb(252, 136, 136);
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+  line-height: 1.3em;
+}
+
+h1{
+  color: rgb(243, 194, 115);
+}
+
+h2 {
+  border-top: 2px solid #e7e7e7;
+  padding-top: 20px;
+}
+
+th {
+  border-bottom: 2px solid rgb(223, 91, 39);
+  text-align: left;
+  padding: 5px 20px 5px 10px;
+  color: rgb(248, 204, 132);
+}
+
+tr {
+  min-height: 50px;
+}
+
+tr:nth-child(2n) {
+  background: rgb(223, 91, 39);
+}
+
+td {
+  padding: 5px 20px 5px 10px;
+  color:rgb(210, 213, 214);
+}
+
+label {
+  font-weight: bold;
+  min-width: 130px;
+  display: inline-block;
+  transition: 0.4s;
+  color: rgb(243, 194, 115);
+}
+
+input {
+  padding: 10px;
+  font-family: OCR A Std, monospace ;
+  font-size: 14px;
+  border-radius: 2px;
+  border-color: rgb(236, 149, 8);
+  background-color: rgb(247, 234, 214);
+
+  transition: 0.4s;
+}
+
+input[type=text] {
+  margin-left: 7px;
+  width: 300px;
+}
+
+.error {
+  color: rgb(236, 15, 15);
+}
+
