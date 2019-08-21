@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1 New Book
+    if errors
+      h2.error Oooops!
+        ul.error
+          li Title and Author are both required to create a New Book  
+          
+
+    form(action='/books/new',method='post')
+      div
+        label(for='title') Title
+        input#title(name='title', type='text',value=book.title)
+      div
+        label(for='author') Author
+        input#author(name='author', type='text',value=book.author)
+      div
+        label(for='genre') Genre
+        input#genre(name='genre', type='text', value=book.genre)
+      div
+        label(for='year') Year
+        input#year(name='year', type='text', value=book.year)
+      div
+        input(type='submit')
+      div
+        a.button(href='/books/page/0') Cancel
